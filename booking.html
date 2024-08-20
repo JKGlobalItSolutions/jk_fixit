@@ -120,14 +120,16 @@
                 <label for="services">Services:</label>
                 <select class="form-control scrollable-dropdown" id="services" required>
                   <option value="">Select a service</option>
-                  <!-- <optgroup label="IT Solutions">
-                    <option value="cctv">CCTV</option>
-                    <option value="printer">Printer</option>
-                    <option value="desktopAndLaptop">Computer and
-                      Laptop</option>
-                    <option value="xeroxMachine">Xerox Machine</option>
-                    <option value="hardwareAndNetworking">IT Infrastructure Management</option>
-                  </optgroup> -->
+                  <optgroup label="Home Appliances">
+                    <option value="ac">AC</option>
+                    <option value="fridge">Fridge</option>
+                    <option value="washingMachine">Washing Machine</option>
+                    <option value="ro">RO</option>
+                    <option value="waterHeater">Water Heater</option>
+                    <option value="microwaveOven">Microwave Oven</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="ledTv">LED TV</option>
+                  </optgroup>
                   <optgroup label="Cleaning & Maintenance">
                     <option value="electrical">Electrical Service</option>
                     <option value="plumbing">Plumbing</option>
@@ -217,13 +219,13 @@
               if (this.value) {
                 subServiceGroup.style.display = 'block';
                 var subServices = {
-                  // ac: ['AC Installation', 'AC Uninstallation', 'AC Repair & service', 'Window AC Uninstallation', 'AC Gas Filling/Refilling', 'Duct AC and Cassette AC', 'AC Deep Cleaning Service', 'Window AC Uninstallation and Installation', 'Window AC Installation', 'AC General Cleaning Service'],
-                  // fridge: ['Fridge Installation', 'Fridge Repair'],
-                  // washingMachine: ['Washing Machine Installation', 'Washing Machine Repair', 'Semi-Automatic', 'Automatic', 'Front-load'],
-                  // ro: ['RO Installation', 'RO Repair', 'RO Uninstallation', 'RO Cleaning ', 'RO Repair and Service', 'RO Repair'],
-                  // waterHeater: ['Water Heater Installation', 'Water Heater Repair', 'Geyser uninstallation', 'Geyser Service '],
-                  // microwaveOven: ['Microwave Oven Installation', 'Microwave Oven Repair', 'Microwave service'],
-                  // ledTv: ['LED TV Installation', 'LED TV Repair', 'LED TV wall mounting/TV installation', 'LED/LCD TV Service', 'CRT TV Service'],
+                  ac: ['AC Installation', 'AC Uninstallation', 'AC Repair & service', 'Window AC Uninstallation', 'AC Gas Filling/Refilling', 'Duct AC and Cassette AC', 'AC Deep Cleaning Service', 'Window AC Uninstallation and Installation', 'Window AC Installation', 'AC General Cleaning Service'],
+                   fridge: ['Fridge Installation', 'Fridge Repair'],
+                   washingMachine: ['Washing Machine Installation', 'Washing Machine Repair', 'Semi-Automatic', 'Automatic', 'Front-load'],
+                   ro: ['RO Installation', 'RO Repair', 'RO Uninstallation', 'RO Cleaning ', 'RO Repair and Service', 'RO Repair'],
+                   waterHeater: ['Water Heater Installation', 'Water Heater Repair', 'Geyser uninstallation', 'Geyser Service '],
+                   microwaveOven: ['Microwave Oven Installation', 'Microwave Oven Repair', 'Microwave service'],
+                   ledTv: ['LED TV Installation', 'LED TV Repair', 'LED TV wall mounting/TV installation', 'LED/LCD TV Service', 'CRT TV Service'],
                   // cctv: ['CCTV Installation', 'CCTV Maintenance', 'CCTV Upgrade', 'CCTV Repair', 'CCTV Motherboard Chip Level Service'],
                   // desktopAndLaptop: ['Desktop and Laptop Installation', 'Desktop and Laptop Maintenance', 'Desktop and Laptop Upgrade', 'Desktop and Laptop Repair', 'Desktop and Laptop Motherboard Chip Level Service'],
 
@@ -233,7 +235,7 @@
 
                   // hardwareAndNetworking: ['Hardware and Networking Installation', 'Hardware and Networking Maintenance', 'Hardware and Networking Upgrade', 'Hardware and Networking Repair', 'Hardware and Networking Motherboard Chip Level Service'],
 
-                  // mobile: ['Mobile Installation', 'Mobile Maintenance', 'Mobile Upgrade', 'Mobile Repair', 'Mobile Motherboard Chip Level Service'],
+                   mobile: ['Mobile Installation', 'Mobile Maintenance', 'Mobile Upgrade', 'Mobile Repair', 'Mobile Motherboard Chip Level Service'],
                   electrical: [
                     'Electrical Installation', 'Electrical Maintenance', 'Electrical Repair'
                   ],
